@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'OpenSans';
+
+    src: url('../fonts/opensans.woff') format('woff'),
+
+    url('../fonts/opensans.ttf') format('truetype');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans_semibold';
+
+    src: url('../fonts/opensanssemibold.ttf') format('truetype');
+
+}

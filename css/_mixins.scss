@@ -1,0 +1,48 @@
+//====== media query ====
+$tablet-width: 991px;
+$desktop-width: 1024px;
+
+@mixin tablet {
+  @media (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+//====== background and border gradient ====
+$gredientStart: #61b748;
+$gradientStop: #3297a3;
+
+@mixin bg-gradient(){
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=$gredientStart, endColorstr=$gredientStop)";
+  background: -webkit-linear-gradient(left, $gredientStart, $gradientStop);
+  background: -moz-linear-gradient(left, $gredientStart, $gradientStop);
+  background: -o-linear-gradient(left, $gredientStart, $gradientStop);
+  background: linear-gradient(to right, $gredientStart, $gradientStop);
+}
+@mixin border-gradient{
+  box-sizing: border-box;
+  border: 10px solid transparent;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(90deg, $gredientStart, $gradientStop);
+  //border-image-source: linear-gradient(90deg, $gredientStart, $gradientStop);
+  //border-image-slice: 1;
+}
+
+@mixin hov{
+  transition: all .3s
+}
+
+@mixin transition{
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}

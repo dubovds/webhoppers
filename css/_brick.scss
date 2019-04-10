@@ -1,0 +1,32 @@
+.brick{
+
+  @include tablet{
+    margin-top: rem(50);
+  }
+  &__block{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__item{
+    padding: rem(7) rem(24);
+    border: 3px solid rgba(255, 255, 255, .1);
+    border-left: none;
+    border-bottom: none;
+
+    &:last-child{
+      border-image-source: linear-gradient(90deg, rgba(255, 255, 255, .1), transparent);
+      border-image-slice: 1;
+    }
+    &:first-child{
+      border-image-source: linear-gradient(90deg, transparent, rgba(255, 255, 255, .1));
+      border-image-slice: 1;
+    }
+  }
+}
+
+.brick__block:last-child{
+  .brick__item{
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+  }
+}

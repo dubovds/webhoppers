@@ -1,0 +1,59 @@
+.text-block{
+
+  @include tablet{
+    margin-top: rem(80);
+  }
+
+
+  &_center{
+    text-align: center;
+  }
+
+  &__title{
+    position: relative;
+    text-transform: uppercase;
+    font-size: rem(36);
+
+    &_line:before{
+      content: '';
+      position: absolute;
+      width: rem(87);
+      height: rem(4);
+      border-radius: 5px;
+      background-color: $green;
+      top: rem(-54);
+      left: 0;
+
+      @include tablet{
+        top: rem(-25);
+      }
+    }
+  }
+
+  &__subtitle{
+    position: relative;
+    margin-bottom: rem(35);
+    color: $green;
+    text-transform: uppercase;
+    &:before{
+      content: '';
+      position: absolute;
+      width: rem(87);
+      height: rem(4);
+      border-radius: 5px;
+      background-color: $green;
+      top: rem(-15);
+      left: rem(-20);
+    }
+  }
+
+  &__content{
+    margin-top: rem(44);
+    padding: rem(40) rem(23);
+    border: 3px solid $green;
+
+    @include tablet{
+      margin-top: rem(25);
+    }
+  }
+}

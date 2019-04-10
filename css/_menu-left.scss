@@ -1,0 +1,112 @@
+.navbar {
+  padding: 8px 0px;
+  margin-bottom: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  @include transition;
+}
+
+.navbar-fixed-top {
+  background-color: #fff;
+  border-bottom: none;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+/*------------------------------------------*/
+/*	 Navigation Bar Scroll
+/*------------------------------------------*/
+
+.scroll-fixed-navbar {
+  padding: 0;
+  background: rgba(0,0,0,.75) ;
+
+  .navbar-brand img{
+    width: rem(83);
+  }
+}
+
+/*------------------------------------------*/
+/*	 Logo Image
+/*------------------------------------------*/
+
+.navbar-brand {
+  padding: 5px;
+
+  img{
+    width: rem(104);
+    @include transition;
+  }
+}
+
+/*------------------------------------------*/
+/*	 Navigation Menu
+/*------------------------------------------*/
+
+.navbar-nav > li > a {
+  color: $textColor;
+  line-height: 40px;
+  letter-spacing: 1px;
+  display: block;
+  padding: 0 15px;
+  @include transition;
+}
+
+/*------------------------------------------*/
+/*	 Navigation Menu Hover/Active
+/*------------------------------------------*/
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a.selected-nav {
+  color: $textColor;
+  background-color: transparent;
+}
+
+.navbar-nav > li > a:focus {
+  background-color: transparent;
+}
+
+/*------------------------------------------*/
+/*	 Responsive Menu Button
+/*------------------------------------------*/
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  background-color: transparent;
+  padding: 10px;
+  margin: 13px 30px 13px 0;
+  border: none;
+  color: #fff;
+  border: 2px solid #333;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #333;
+}
+
+
+.digitized{
+  padding: 13px 38px;
+  font-weight: bold;
+  line-height: 1;
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: #000;
+  background-clip: padding-box;
+  cursor: pointer;
+  text-decoration: none!important;
+
+  &:after {
+    position: absolute;
+    top: -3px;
+    bottom: -3px;
+    left: -3px;
+    right: -3px;
+    @include bg-gradient();
+    content: '';
+    z-index: -1;
+    border-radius: 8px;
+  }
+}
