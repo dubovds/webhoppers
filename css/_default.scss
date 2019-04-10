@@ -1,13 +1,25 @@
+body{
+  margin: 0;
+  background-color: $body-bg;
+  color: $textColor;
+  font-size: $defaultSize;
+  font-family: $defaultFont;
+  background-image: url("../images/bg.png");
+  background-repeat: repeat-y;
+  background-position: 50% 50%;
+
+  @include tablet{
+    font-size: $defaultMobileSize;
+    background-size: contain;
+  }
+}
+
 .section{
   position: relative;
-  padding: rem(130) 0;
+  padding: $defaultSectionPadding;
 
-
-  &_intro{
-    padding-top: rem(242);
+  &_home{
+    padding-top: $homeSectionPadding;
   }
 
-  &_contact{
-    padding: 0;
-  }
 }

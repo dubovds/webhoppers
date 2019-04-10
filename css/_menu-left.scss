@@ -1,21 +1,7 @@
 .navbar {
   padding: 8px 0px;
-  margin-bottom: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
   @include transition;
 }
-
-.navbar-fixed-top {
-  background-color: #fff;
-  border-bottom: none;
-  box-shadow: 0 0 3px rgba(0,0,0,0.5);
-}
-
-/*------------------------------------------*/
-/*	 Navigation Bar Scroll
-/*------------------------------------------*/
 
 .scroll-fixed-navbar {
   padding: 0;
@@ -25,10 +11,6 @@
     width: rem(83);
   }
 }
-
-/*------------------------------------------*/
-/*	 Logo Image
-/*------------------------------------------*/
 
 .navbar-brand {
   padding: 5px;
@@ -50,21 +32,17 @@
   display: block;
   padding: 0 15px;
   @include transition;
+
+  &:hover,
+  &.selected-nav{
+    color: $textColor;
+    background-color: transparent;
+  }
+  &:focus{
+    background-color: transparent;
+  }
 }
 
-/*------------------------------------------*/
-/*	 Navigation Menu Hover/Active
-/*------------------------------------------*/
-
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a.selected-nav {
-  color: $textColor;
-  background-color: transparent;
-}
-
-.navbar-nav > li > a:focus {
-  background-color: transparent;
-}
 
 /*------------------------------------------*/
 /*	 Responsive Menu Button
@@ -79,44 +57,8 @@
   border: none;
   color: #fff;
   border: 2px solid #333;
-}
 
-.navbar-toggle .icon-bar {
-  background-color: #333;
-}
-
-
-//.digitized{
-//  padding: 13px 38px;
-//  font-weight: bold;
-//  line-height: 1;
-//  position: relative;
-//  border: 2px solid transparent;
-//  border-radius: 8px;
-//  background: #000;
-//  background-clip: padding-box;
-//  cursor: pointer;
-//  text-decoration: none!important;
-//
-//  &:after {
-//    position: absolute;
-//    top: -3px;
-//    bottom: -3px;
-//    left: -3px;
-//    right: -3px;
-//    @include bg-gradient();
-//    content: '';
-//    z-index: -1;
-//    border-radius: 8px;
-//  }
-//}
-.digitized{
-  padding: 13px 38px;
-  border: 2px solid;
-  @include border-gradient;
-  text-decoration: none!important;
-
-  &:hover{
-    @include bg-gradient;
+  &.icon-bar {
+    background-color: #333;
   }
 }

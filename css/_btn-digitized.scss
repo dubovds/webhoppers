@@ -1,0 +1,33 @@
+.btn-digitized{
+  padding: 13px 38px;
+  border: 2px solid;
+  @include border-gradient;
+  color: $textColor;
+  text-decoration: none!important;
+
+  &:hover{
+    @include bg-gradient;
+  }
+  &:focus{
+    outline: 0;
+  }
+
+  &_contact{
+    margin-top: rem(40);
+    @include bg-gradient;
+
+    &:hover{
+
+      background: transparent;
+    }
+  }
+
+  &_send{
+    @include bg-gradient;
+
+    &:hover{
+
+      background: transparent;
+    }
+  }
+}

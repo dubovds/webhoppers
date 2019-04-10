@@ -4,7 +4,6 @@
     margin-top: rem(80);
   }
 
-
   &_center{
     text-align: center;
   }
@@ -12,14 +11,14 @@
   &__title{
     position: relative;
     text-transform: uppercase;
-    font-size: rem(36);
+    font-size: $titleSize;
 
     &_line:before{
       content: '';
       position: absolute;
       width: rem(87);
       height: rem(4);
-      border-radius: 5px;
+      border-radius: $borderRadius;
       background-color: $green;
       top: rem(-54);
       left: 0;
@@ -40,7 +39,7 @@
       position: absolute;
       width: rem(87);
       height: rem(4);
-      border-radius: 5px;
+      border-radius: $borderRadius;
       background-color: $green;
       top: rem(-15);
       left: rem(-20);
@@ -48,8 +47,8 @@
   }
 
   &__content{
-    margin-top: rem(44);
-    padding: rem(40) rem(23);
+    margin-top: rem(45);
+    padding: $text-block-content-padding;
     border: 3px solid $green;
 
     @include tablet{

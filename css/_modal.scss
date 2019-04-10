@@ -1,0 +1,17 @@
+.modal{
+
+  &__input{
+    width: 100%;
+    margin: rem(10) 0;
+    padding: rem(10) rem(20);
+    border: 2px solid;
+    @include border-gradient;
+    outline: none;
+  }
+
+  &__textarea{
+    width: 100%;
+    border: 2px solid;
+    @include border-gradient;
+  }
+}

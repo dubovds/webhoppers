@@ -3,46 +3,9 @@
 @import "default";
 @import "menu-left";
 @import "top-menu";
+@import "btn-digitized";
+@import "btn-scroll-down";
 @import "text-block";
 @import "brick";
+@import "modal";
 
-body{
-  margin: 0;
-  background-color: #000;
-  color: $textColor;
-  font-size: rem(14);
-  font-family: 'OpenSans';
-  background-image: url("../images/bg.png");
-  background-repeat: repeat-y;
-  background-position: 50% 50%;
-
-  @include tablet{
-    font-size: rem(16);
-  }
-}
-
-.look-down{
-  position: absolute;
-  margin-top: rem(55);
-  padding-bottom: rem(15);
-  bottom: rem(25);
-  left: 50%;
-  transform: translateX(-50%);
-  text-transform: uppercase;
-  color:$grey;
-  text-align: center;
-  background-image: url("../images/arrow-down.png");
-  background-repeat: no-repeat;
-  background-position: 50% 100%;
-  font-family: 'OpenSans_semibold';
-  font-size: rem(16);
-}
-
-.btn-apply{
-  margin-top:rem(40);
-  padding: rem(16) rem(33);
-  @include bg-gradient;
-  color: $textColor;
-  font-weight: bold;
-  border-radius: 18px;
-}

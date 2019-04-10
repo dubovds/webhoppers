@@ -1,21 +1,26 @@
+//====== FONT-FAMILY ===
+$defaultFont: 'OpenSans', Helvetica, Arial, sans-serif;
+$semiBoldFont: 'OpenSans_semibold', Helvetica, Arial, sans-serif;
+
+
+//====== FONT-SIZE ===
+$titleSize: rem(36);
+$defaultSize: rem(14);
+$defaultMobileSize: rem(16);
+
+
 //====== COLORS ====
+$body-bg: #000;
 $green: #56b945;
 $textColor: #ffffff;
-$grey: #858a8a;
+$scrollDownText: #858a8a;
 
+//====== PADDING FOR SECTIONS ====
+$defaultSectionPadding: rem(130);
+$homeSectionPadding: rem(242);
 
-//====== PX to REM ===
-$baseFontSize : 16;
-@function rem($pixels, $context: $baseFontSize) {
-  @if (unitless($pixels)) {
-    $pixels: $pixels * 1px;
-  }
+//====== PADDING FOR text-block__content ====
+$text-block-content-padding: rem(40) rem(23);
 
-  @if (unitless($context)) {
-    $context: $context * 1px;
-  }
-
-  @return $pixels / $context * 1rem;
-}
-
-
+//====== BORDER RADIUS ====
+$borderRadius: 5px;
