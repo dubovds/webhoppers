@@ -26,7 +26,7 @@
 /*------------------------------------------*/
 
 .navbar-nav > li > a {
-  color: $textColor;
+  color: $text-color;
   line-height: 40px;
   letter-spacing: 1px;
   display: block;
@@ -35,7 +35,7 @@
 
   &:hover,
   &.selected-nav{
-    color: $textColor;
+    color: $text-color;
     background-color: transparent;
   }
   &:focus{

@@ -2,16 +2,16 @@
 
   &__input{
     width: 100%;
-    margin: rem(10) 0;
-    padding: rem(10) rem(20);
-    border: 2px solid;
+    margin: $margin-input;
+    padding: $padding-input;
+    border: $border;
     @include border-gradient;
     outline: none;
   }
 
   &__textarea{
     width: 100%;
-    border: 2px solid;
+    border: $border;
     @include border-gradient;
   }
 }

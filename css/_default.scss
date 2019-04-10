@@ -1,7 +1,7 @@
 body{
   margin: 0;
   background-color: $body-bg;
-  color: $textColor;
+  color: $text-color;
   font-size: $defaultSize;
   font-family: $defaultFont;
   background-image: url("../images/bg.png");
@@ -20,6 +20,9 @@ body{
 
   &_home{
     padding-top: $homeSectionPadding;
-  }
 
+    @include tablet{
+      padding-top: $homeSectionPadding / 2;
+    }
+  }
 }

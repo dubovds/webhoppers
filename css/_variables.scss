@@ -12,15 +12,34 @@ $defaultMobileSize: rem(16);
 //====== COLORS ====
 $body-bg: #000;
 $green: #56b945;
-$textColor: #ffffff;
+$text-color: #ffffff;
 $scrollDownText: #858a8a;
 
-//====== PADDING FOR SECTIONS ====
-$defaultSectionPadding: rem(130);
-$homeSectionPadding: rem(242);
 
-//====== PADDING FOR text-block__content ====
-$text-block-content-padding: rem(40) rem(23);
+//====== BORDER ====
+$borderContent: 3px solid;
+$border: 2px solid;
 
 //====== BORDER RADIUS ====
 $borderRadius: 5px;
+
+
+//====== LINE PARAMS ====
+$lineWidth: rem(87);
+$lineHeight: rem(4);
+$lineTop: rem(-55);
+
+
+//====== PADDING ====
+$defaultSectionPadding: rem(130);
+$homeSectionPadding: rem(242);
+$padding-input: rem(10) rem(20);
+$padding-btn: 13px 38px;
+$text-block-content-padding: rem(40) rem(23);
+
+//====== MARGING ====
+$margin-input: rem(10) 0;
+$margin-top-text: rem(80);
+$margin-top-text-block-content: rem(40);
+$margin-top-btn-digitized-contact: rem(40);
+$margin-bottom-text-block-subtitle: rem(35);

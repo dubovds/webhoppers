@@ -1,7 +1,7 @@
 .text-block{
 
   @include tablet{
-    margin-top: rem(80);
+    margin-top: $margin-top-text;
   }
 
   &_center{
@@ -16,29 +16,30 @@
     &_line:before{
       content: '';
       position: absolute;
-      width: rem(87);
-      height: rem(4);
+      width: $lineWidth;
+      height: $lineHeight;
       border-radius: $borderRadius;
       background-color: $green;
-      top: rem(-54);
+      top: $lineTop;
       left: 0;
 
       @include tablet{
-        top: rem(-25);
+        top: $lineTop + rem(30);
       }
     }
   }
 
   &__subtitle{
     position: relative;
-    margin-bottom: rem(35);
+    margin-bottom: $margin-bottom-text-block-subtitle;
     color: $green;
     text-transform: uppercase;
+
     &:before{
       content: '';
       position: absolute;
-      width: rem(87);
-      height: rem(4);
+      width: $lineWidth;
+      height: $lineHeight;
       border-radius: $borderRadius;
       background-color: $green;
       top: rem(-15);
@@ -47,12 +48,12 @@
   }
 
   &__content{
-    margin-top: rem(45);
+    margin-top: $margin-top-text-block-content;
     padding: $text-block-content-padding;
-    border: 3px solid $green;
+    border: $borderContent $green;
 
     @include tablet{
-      margin-top: rem(25);
+      margin-top: $margin-top-text-block-content/2;
     }
   }
 }

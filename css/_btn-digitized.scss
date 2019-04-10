@@ -1,8 +1,8 @@
 .btn-digitized{
-  padding: 13px 38px;
-  border: 2px solid;
+  padding: $padding-btn;
+  border: $border;
   @include border-gradient;
-  color: $textColor;
+  color: $text-color;
   text-decoration: none!important;
 
   &:hover{
@@ -13,11 +13,10 @@
   }
 
   &_contact{
-    margin-top: rem(40);
+    margin-top: $margin-top-btn-digitized-contact;
     @include bg-gradient;
 
     &:hover{
-
       background: transparent;
     }
   }
