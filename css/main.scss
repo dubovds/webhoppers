@@ -12,6 +12,9 @@ body{
   color: $textColor;
   font-size: rem(14);
   font-family: 'OpenSans';
+  background-image: url("../images/bg.png");
+  background-repeat: repeat-y;
+  background-position: 50% 50%;
 
   @include tablet{
     font-size: rem(16);

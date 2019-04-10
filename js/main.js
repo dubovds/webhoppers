@@ -4,7 +4,6 @@
 $(window).scroll(function(){
 
   var b = $(window).scrollTop();
-  console.log(b);
 
   if( b > 70 ){
     $(".navbar.fixed-top").addClass("scroll-fixed-navbar");
@@ -14,7 +13,15 @@ $(window).scroll(function(){
   }
 });
 
-
+/* slow anhor */
+$(document).ready(function(){
+  $(".goTo").on("click", function (event) {
+    event.preventDefault();
+    var id  = $(this).attr('href'),
+      top = $(id).offset().top;
+    $('body,html').animate({scrollTop: top}, 1500);
+  });
+});
 
 
 

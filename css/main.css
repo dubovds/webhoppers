@@ -1,11 +1,6 @@
 .section {
   position: relative;
-  padding: 8.125rem 0;
-  background-image: url("../images/bg.png");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-  border-bottom: 6px solid #3297a3; }
+  padding: 8.125rem 0; }
   .section_intro {
     padding-top: 15.125rem; }
   .section_contact {
@@ -94,29 +89,16 @@
 
 .digitized {
   padding: 13px 38px;
-  font-weight: bold;
-  line-height: 1;
-  position: relative;
-  border: 2px solid transparent;
-  border-radius: 8px;
-  background: #000;
-  background-clip: padding-box;
-  cursor: pointer;
+  border: 2px solid;
+  border-image-source: linear-gradient(90deg, #61b748, #3297a3);
+  border-image-slice: 1;
   text-decoration: none !important; }
-  .digitized:after {
-    position: absolute;
-    top: -3px;
-    bottom: -3px;
-    left: -3px;
-    right: -3px;
+  .digitized:hover {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=$gredientStart, endColorstr=$gredientStop)";
     background: -webkit-linear-gradient(left, #61b748, #3297a3);
     background: -moz-linear-gradient(left, #61b748, #3297a3);
     background: -o-linear-gradient(left, #61b748, #3297a3);
-    background: linear-gradient(to right, #61b748, #3297a3);
-    content: '';
-    z-index: -1;
-    border-radius: 8px; }
+    background: linear-gradient(to right, #61b748, #3297a3); }
 
 .navbar-brand {
   font-size: 24px; }
@@ -219,7 +201,10 @@ body {
   background-color: #000;
   color: #ffffff;
   font-size: 0.875rem;
-  font-family: 'OpenSans'; }
+  font-family: 'OpenSans';
+  background-image: url("../images/bg.png");
+  background-repeat: repeat-y;
+  background-position: 50% 50%; }
   @media (max-width: 991px) {
     body {
       font-size: 1rem; } }
