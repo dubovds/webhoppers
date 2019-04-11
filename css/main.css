@@ -21,6 +21,40 @@ body {
       .section_home {
         padding-top: 7.5625rem; } }
 
+.menu-left {
+  position: fixed;
+  z-index: 50;
+  list-style-type: none;
+  top: 35%; }
+  .menu-left__item {
+    display: block;
+    border: 2px solid #fff;
+    opacity: .5;
+    width: 16px;
+    height: 16px;
+    margin: 15px 0;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out; }
+    .menu-left__item a {
+      position: relative;
+      width: 16px;
+      height: 16px;
+      display: block; }
+    .menu-left__item.active a:before {
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-72%, -72%); }
+
 .navbar {
   padding: 8px 0px;
   -webkit-transition: all 300ms ease-in-out;
