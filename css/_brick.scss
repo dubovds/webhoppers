@@ -13,6 +13,7 @@
     border: 3px solid rgba(255, 255, 255, .1);
     border-left: none;
     border-bottom: none;
+    outline: none;
 
     &:last-child{
       border-image-source: linear-gradient(90deg, rgba(255, 255, 255, .1), transparent);

@@ -298,7 +298,8 @@ body {
   padding: 0.4375rem 1.5rem;
   border: 3px solid rgba(255, 255, 255, 0.1);
   border-left: none;
-  border-bottom: none; }
+  border-bottom: none;
+  outline: none; }
   .brick__item:last-child {
     border-image-source: linear-gradient(90deg, rgba(255, 255, 255, 0.1), transparent);
     border-image-slice: 1; }
@@ -328,5 +329,16 @@ body {
   border: 2px solid;
   border-image-source: linear-gradient(90deg, #61b748, #3297a3);
   border-image-slice: 1; }
+
+.popover {
+  background-color: transparent;
+  border: 2px solid #56b945;
+  color: #ffffff;
+  padding: 1.25rem 0.9375rem; }
+  .popover .arrow {
+    display: none; }
+
+.popover-body {
+  color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */

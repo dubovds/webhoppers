@@ -69,3 +69,21 @@ $(window).scroll(function(){
       .end().filter("[href='#"+id+"']").parent().addClass("active");
   }
 });
+
+
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+
+
+
+
+$(document).ready(function(){
+  $('.brick__item').click(function(){
+    $('body').append('<div class="modal-backdrop fade show"></div>');
+  });
+
+  $('.modal-backdrop.fade.show').click(function(){
+    $(this).remove();
+  });
+});

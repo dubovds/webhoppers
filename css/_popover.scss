@@ -1,0 +1,14 @@
+.popover{
+  background-color: transparent;
+  border: $border $green;
+  color: $text-color;
+  padding: rem(20) rem(15);
+
+  .arrow{
+   display: none;
+  }
+}
+
+.popover-body{
+  color: $text-color;
+}
