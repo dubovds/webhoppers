@@ -80,3 +80,10 @@ $('.navbar-nav li a').click(function() {
   $('#navigation-menu').css("height", "1px").removeClass("in").addClass("collapse");
   $('#navigation-menu').removeClass("open");
 });
+
+
+$(document).ready(function(){
+  $('#nav-icon3').click(function(){
+    $(this).toggleClass('open');
+  });
+});
