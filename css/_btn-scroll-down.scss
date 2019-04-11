@@ -12,10 +12,10 @@
     position: relative;
     padding-bottom: rem(15);
     text-transform: uppercase;
-    color:$scrollDownText;
+    color:$text-color;
     text-decoration: none;
-    opacity:.8;
-
+    opacity:.5;
+    @include transition;
 
     &:after{
       content: '';
@@ -32,7 +32,7 @@
     }
 
     &:hover{
-      color:$scrollDownText;
+      color: $text-color;
       text-decoration: none;
       opacity: 1;
 

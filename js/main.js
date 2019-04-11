@@ -28,7 +28,7 @@ $(document).ready(function(){
     event.preventDefault();
     var id  = $(this).attr('href'),
       top = $(id).offset().top;
-    $('body,html').animate({scrollTop: top}, 1500);
+    $('body,html').animate({scrollTop: top}, 1000);
   });
 });
 
@@ -48,7 +48,7 @@ menuItems.click(function(e){
     offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
   $('html, body').stop().animate({
     scrollTop: offsetTop
-  }, 300);
+  }, 1000);
   e.preventDefault();
 });
 
