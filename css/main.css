@@ -22,8 +22,15 @@ body {
       .section_home {
         padding-top: 7.5625rem; } }
 
+.modal-backdrop.show {
+  opacity: 0.8; }
+
 .c-hidden {
   display: none; }
+
+.c-index {
+  position: relative;
+  z-index: 2000; }
 
 .menu-left {
   position: fixed;

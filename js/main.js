@@ -80,10 +80,12 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.brick__item').click(function(){
+    $(this).addClass('c-index');
     $('.modal-backdrop').removeClass('c-hidden');
   });
 
   $('.modal-backdrop').click(function(){
+    $('.brick__item').removeClass('c-index');
     $(this).addClass('c-hidden');
   });
 });

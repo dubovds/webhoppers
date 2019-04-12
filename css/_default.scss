@@ -28,6 +28,13 @@ body{
   }
 }
 
+.modal-backdrop.show{
+  opacity: 0.8;
+}
 .c-hidden{
   display: none;
+}
+.c-index{
+  position: relative;
+  z-index:2000;
 }
