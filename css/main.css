@@ -21,6 +21,8 @@ body {
     @media (max-width: 991px) {
       .section_home {
         padding-top: 7.5625rem; } }
+  .section_contact {
+    padding: 21.9375rem; }
 
 .modal-backdrop.show {
   opacity: 0.8; }

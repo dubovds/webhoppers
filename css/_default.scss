@@ -26,6 +26,10 @@ body{
       padding-top: $homeSectionPadding / 2;
     }
   }
+
+  &_contact{
+    padding: $defaultSectionPadding*2.7;
+  }
 }
 
 .modal-backdrop.show{
