@@ -17,7 +17,7 @@ body{
 .section{
   position: relative;
   padding: $defaultSectionPadding;
-  border: $border $section-border-color;
+  border-bottom: $border $section-border-color;
 
   &_home{
     padding-top: $homeSectionPadding;

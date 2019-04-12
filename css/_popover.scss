@@ -2,7 +2,7 @@
   background-color: transparent;
   border: $border $green;
   color: $text-color;
-  padding: rem(20) rem(15);
+  padding: $popover-padding;
 
   .arrow{
    display: none;

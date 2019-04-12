@@ -19,6 +19,7 @@ $section-border-color: #3197a3;
 //====== BORDER ====
 $borderContent: 3px solid;
 $border: 2px solid;
+$brick-item-border: 3px solid rgba(255, 255, 255, .1);
 
 //====== BORDER RADIUS ====
 $borderRadius: 5px;
@@ -36,6 +37,9 @@ $homeSectionPadding: rem(242);
 $padding-input: rem(10) rem(20);
 $padding-btn: 13px 38px;
 $text-block-content-padding: rem(40) rem(23);
+$brick-item-padding: rem(7) rem(24);
+$popover-padding: rem(20) rem(15);
+
 
 //====== MARGING ====
 $margin-input: rem(10) 0;

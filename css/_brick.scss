@@ -9,8 +9,8 @@
   }
 
   &__item{
-    padding: rem(7) rem(24);
-    border: 3px solid rgba(255, 255, 255, .1);
+    padding: $brick-item-padding;
+    border: $brick-item-border;
     border-left: none;
     border-bottom: none;
     outline: none;
@@ -28,6 +28,6 @@
 
 .brick__block:last-child{
   .brick__item{
-    border-bottom: 2px solid rgba(255, 255, 255, .1);
+    border-bottom: $brick-item-border;
   }
 }

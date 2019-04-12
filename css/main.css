@@ -15,7 +15,7 @@ body {
 .section {
   position: relative;
   padding: 8.125rem;
-  border: 2px solid #3197a3; }
+  border-bottom: 2px solid #3197a3; }
   .section_home {
     padding-top: 15.125rem; }
     @media (max-width: 991px) {
@@ -308,7 +308,7 @@ body {
     border-image-slice: 1; }
 
 .brick__block:last-child .brick__item {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
+  border-bottom: 3px solid rgba(255, 255, 255, 0.1); }
 
 .modal-content_transparent {
   background: transparent;
