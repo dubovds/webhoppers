@@ -22,6 +22,9 @@ body {
       .section_home {
         padding-top: 7.5625rem; } }
 
+.c-hidden {
+  display: none; }
+
 .menu-left {
   position: fixed;
   z-index: 50;

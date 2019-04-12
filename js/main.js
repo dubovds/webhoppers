@@ -80,10 +80,10 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.brick__item').click(function(){
-    $('body').append('<div class="modal-backdrop fade show"></div>');
+    $('.modal-backdrop').removeClass('c-hidden');
   });
 
-  $('.modal-backdrop.fade.show').click(function(){
-    $(this).remove();
+  $('.modal-backdrop').click(function(){
+    $(this).addClass('c-hidden');
   });
 });
