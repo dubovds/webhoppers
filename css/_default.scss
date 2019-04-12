@@ -29,7 +29,7 @@ body{
 }
 
 .modal-backdrop.show{
-  opacity: 0.8;
+  opacity: $opacity-overlay;
 }
 .c-hidden{
   display: none;
