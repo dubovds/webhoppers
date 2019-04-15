@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d29d00e6-59a2-4b16-926d-88a5a4cfed98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_modal.scss" afterPath="$PROJECT_DIR$/css/_modal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_copywrite.scss" afterPath="$PROJECT_DIR$/css/_copywrite.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_variables.scss" afterPath="$PROJECT_DIR$/css/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="211" column="48" lean-forward="false" selection-start-line="211" selection-start-column="48" selection-end-line="211" selection-end-column="48" />
+            <state relative-caret-position="480">
+              <caret line="245" column="10" lean-forward="true" selection-start-line="245" selection-start-column="10" selection-end-line="245" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -79,38 +81,18 @@
       <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="550">
+              <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_modal.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/_modal.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="85" column="49" lean-forward="true" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_copywrite.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_copywrite.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/_copywrite.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -161,11 +143,11 @@
         <option value="$PROJECT_DIR$/css/_default.scss" />
         <option value="$PROJECT_DIR$/css/_btn-digitized.scss" />
         <option value="$PROJECT_DIR$/css/_top-menu.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/_copywrite.scss" />
-        <option value="$PROJECT_DIR$/css/_variables.scss" />
         <option value="$PROJECT_DIR$/css/_modal.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/_variables.scss" />
+        <option value="$PROJECT_DIR$/css/_copywrite.scss" />
       </list>
     </option>
   </component>
@@ -378,12 +360,12 @@
       <workItem from="1554893036872" duration="15838000" />
       <workItem from="1554977326079" duration="11580000" />
       <workItem from="1555056580061" duration="7080000" />
-      <workItem from="1555317747565" duration="7335000" />
+      <workItem from="1555317747565" duration="8162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41833000" />
+    <option name="totallyTimeSpent" value="42660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="529" y="1106" width="1388" height="851" extended-state="0" />
@@ -692,14 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="211" column="48" lean-forward="false" selection-start-line="211" selection-start-column="48" selection-end-line="211" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -708,26 +682,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_copywrite.scss">
+    <entry file="file://$PROJECT_DIR$/css/_modal.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="278">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="245" column="10" lean-forward="true" selection-start-line="245" selection-start-column="10" selection-end-line="245" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="550">
+          <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_modal.scss">
+    <entry file="file://$PROJECT_DIR$/css/_copywrite.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="145">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,7 @@
 .copywrite{
   position: absolute;
   bottom: $copywrite-bottom;
-  right: $copywrite-right;
+  left: 50%;
   transform: translateX(-50%);
+  text-align: right;
 }
