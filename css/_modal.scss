@@ -4,6 +4,11 @@
 }
 .modal-content{
   background-color: transparent;
+  border: $border $green;
+}
+
+.modal-body{
+  padding: $modal-body-padding;
 }
 .modal{
 
@@ -13,16 +18,15 @@
     color: $text-color;
     margin: $margin-input;
     padding: $padding-input;
-    border: $border;
-    @include border-gradient;
+    border: $border $green;
     outline: none;
   }
 
   &__textarea{
     width: 100%;
+    margin: $margin-textarea;
     color: $text-color;
     background: transparent;
-    border: $border;
-    @include border-gradient;
+    border: $border $green;
   }
 }

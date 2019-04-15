@@ -11,7 +11,7 @@
   padding: 0;
   background: rgba(0,0,0,.75) ;
 
-  .navbar-brand img{
+  .navbar-brand .logo{
     width: rem(83);
   }
 }
@@ -19,9 +19,22 @@
 .navbar-brand {
   padding: 5px;
 
-  img{
+  .logo{
     width: rem(104);
+    height: rem(79);
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
     @include transition;
+  }
+
+  &:hover{
+    .logo {
+      background-image: url("../images/logo_color.png");
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+    }
   }
 }
 .navbar-nav{

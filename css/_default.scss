@@ -28,7 +28,9 @@ body{
   }
 
   &_contact{
-    padding: $defaultSectionPadding*2.7;
+    padding-top: $defaultSectionPadding*2.7;
+    padding-bottom: $defaultSectionPadding*2.7;
+    border: none;
   }
 }
 

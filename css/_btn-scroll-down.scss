@@ -1,6 +1,6 @@
 .btn-scroll-down{
   position: absolute;
-  bottom: rem(25);
+  bottom: $btn-scroll-down-bottom;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;

@@ -72,20 +72,25 @@ $(window).scroll(function(){
 
 
 $(document).ready(function(){
-  $('[data-toggle="popover"]').popover();
-});
+  $('[data-toggle="popover"]').popover({
+    trigger: 'click'
+  });
 
+});
 
 
 
 $(document).ready(function(){
   $('.brick__item').click(function(){
-    $(this).addClass('brick__index');
-    $('.modal-backdrop').removeClass('c-hidden');
+    $(this).toggleClass('brick__index');
+    $('.modal-backdrop').toggleClass('c-hidden');
   });
 
   $('.modal-backdrop').click(function(){
     $('.brick__item').removeClass('brick__index');
     $(this).addClass('c-hidden');
+    $('[data-toggle="popover"]').popover('hide')
   });
 });
+
+
