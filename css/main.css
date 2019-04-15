@@ -357,6 +357,7 @@ body {
 .modal__textarea {
   width: 100%;
   margin: 0.625rem 0;
+  padding: 0.625rem 1.25rem;
   color: #ffffff;
   background: transparent;
   border: 2px solid #56b945; }
