@@ -3,8 +3,9 @@
   border: $border $green;
 }
 .modal-content{
-  background-color: transparent;
-  border: $border $green;
+  background-color: $body-bg;
+  border: $modal-content-border $green;
+  border-radius: 0;
 }
 
 .modal-body{
