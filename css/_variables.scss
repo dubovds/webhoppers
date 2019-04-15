@@ -3,8 +3,9 @@ $defaultFont: 'OpenSans', Helvetica, Arial, sans-serif;
 $semiBoldFont: 'OpenSans_semibold', Helvetica, Arial, sans-serif;
 
 
-//====== FONT-SIZE ===
+//====== FONT-SIZE ( {...}-m for mobile)===
 $titleSize: rem(36);
+$titleSize-m: rem(36);
 $defaultSize: rem(14);
 $defaultMobileSize: rem(16);
 
@@ -45,13 +46,15 @@ $padding-btn: rem(13px) rem(38px);
 $text-block-content-padding: rem(40) rem(23);
 $brick-item-padding: rem(7) rem(24);
 $popover-padding: rem(20) rem(15);
-$modal-body-padding: rem(40);
+$modal-content-padding: rem(40);
 
 
 //====== MARGING ====
+$margin-modal-text: rem(10);
 $margin-input: rem(10) 0;
 $margin-textarea: rem(10) 0;
 $margin-top-text: rem(80);
+$margin-top-text-m: rem(0);
 $margin-top-text-block-content: rem(40);
 $margin-top-btn-digitized-contact: rem(40);
 $margin-bottom-text-block-subtitle: rem(35);

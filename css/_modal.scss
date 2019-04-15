@@ -6,12 +6,33 @@
   background-color: $body-bg;
   border: $modal-content-border $green;
   border-radius: 0;
+  padding: $modal-content-padding;
+
+  @include mobile{
+    padding: $modal-content-padding / 2;
+  }
+}
+.modal-header{
+  border: none;
 }
 
-.modal-body{
-  padding: $modal-body-padding;
+.close{
+  display: none;
+  position: absolute;
+  top: rem(10);
+  right: rem(10);
+  color: $text-color;
+  opacity: 1;
+
+  @include mobile{
+    display: block;
+  }
 }
 .modal{
+
+  &__text{
+    color: $text-color;
+  }
 
   &__input{
     width: 100%;

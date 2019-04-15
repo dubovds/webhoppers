@@ -25,12 +25,18 @@ body{
     @include tablet{
       padding-top: $homeSectionPadding / 2;
     }
+
   }
 
   &_contact{
     padding-top: $defaultSectionPadding*2.7;
     padding-bottom: $defaultSectionPadding*2.7;
     border: none;
+
+    @include mobile{
+      padding-top: $defaultSectionPadding*1.5;
+      padding-bottom: $defaultSectionPadding*1.5;
+    }
   }
 }
 

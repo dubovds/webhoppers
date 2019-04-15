@@ -4,6 +4,10 @@
   color: $text-color;
   padding: $popover-padding;
 
+  @include mobile{
+    max-width: rem(200);
+  }
+
   .arrow{
    display: none;
   }
