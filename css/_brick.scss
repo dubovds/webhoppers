@@ -3,6 +3,7 @@
   @include tablet{
     margin-top: rem(50);
   }
+
   &__block{
     display: flex;
     justify-content: flex-end;
@@ -23,6 +24,12 @@
       border-image-source: linear-gradient(90deg, transparent, rgba(255, 255, 255, .1));
       border-image-slice: 1;
     }
+  }
+
+  &__index{
+    position: relative;
+    border: $brick-item-border !important;
+    z-index:2000;
   }
 }
 

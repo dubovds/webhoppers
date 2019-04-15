@@ -30,10 +30,6 @@ body {
 .c-hidden {
   display: none; }
 
-.c-index {
-  position: relative;
-  z-index: 2000; }
-
 .menu-left {
   position: fixed;
   z-index: 50;
@@ -318,6 +314,10 @@ body {
   .brick__item:first-child {
     border-image-source: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
     border-image-slice: 1; }
+.brick__index {
+  position: relative;
+  border: 3px solid rgba(255, 255, 255, 0.1) !important;
+  z-index: 2000; }
 
 .brick__block:last-child .brick__item {
   border-bottom: 3px solid rgba(255, 255, 255, 0.1); }
