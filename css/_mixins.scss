@@ -14,9 +14,16 @@ $baseFontSize : 16;
 
 //====== media query ====
 $tablet-width: 991px;
+$mobile-width: 767px;
 
 @mixin tablet {
   @media (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
     @content;
   }
 }

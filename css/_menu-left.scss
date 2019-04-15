@@ -5,6 +5,10 @@
   //left: 7%;
   top: 35%;
 
+  @include tablet{
+    display: none;
+  }
+
   &__item{
     display: block;
     border: $border #fff;

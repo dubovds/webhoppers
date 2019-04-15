@@ -14,7 +14,7 @@ body {
 
 .section {
   position: relative;
-  padding: 8.125rem;
+  padding: 8.125rem 0;
   border-bottom: 2px solid #3197a3; }
   .section_home {
     padding-top: 15.125rem; }
@@ -37,6 +37,9 @@ body {
   z-index: 50;
   list-style-type: none;
   top: 35%; }
+  @media (max-width: 991px) {
+    .menu-left {
+      display: none; } }
   .menu-left__item {
     display: block;
     border: 2px solid #fff;
@@ -223,6 +226,7 @@ body {
 
 .btn-scroll-down {
   position: absolute;
+  width: 100%;
   bottom: 2.5rem;
   left: 50%;
   transform: translateX(-50%);
