@@ -18,6 +18,10 @@ $(document).ready(function(){
   $('#nav-icon3').click(function(){
     $(this).toggleClass('open');
   });
+
+  $('.navbar-nav li').click(function(){
+    $('#nav-icon3').removeClass('open');
+  });
   /* end */
 
   /* navbar collaps after click (mobile) */
