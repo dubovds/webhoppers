@@ -307,7 +307,8 @@ body {
   border: 3px solid rgba(255, 255, 255, 0.1);
   border-left: none;
   border-bottom: none;
-  outline: none; }
+  outline: none;
+  cursor: pointer; }
   .brick__item:last-child {
     border-image-source: linear-gradient(90deg, rgba(255, 255, 255, 0.1), transparent);
     border-image-slice: 1; }
@@ -326,9 +327,13 @@ body {
   background: transparent;
   border: 2px solid #56b945; }
 
+.modal-content {
+  background-color: transparent; }
+
 .modal__input {
   width: 100%;
   background: transparent;
+  color: #ffffff;
   margin: 0.625rem 0;
   padding: 0.625rem 1.25rem;
   border: 2px solid;
@@ -337,6 +342,7 @@ body {
   outline: none; }
 .modal__textarea {
   width: 100%;
+  color: #ffffff;
   background: transparent;
   border: 2px solid;
   border-image-source: linear-gradient(90deg, #61b748, #3297a3);

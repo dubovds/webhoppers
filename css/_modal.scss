@@ -2,11 +2,15 @@
   background: transparent;
   border: $border $green;
 }
+.modal-content{
+  background-color: transparent;
+}
 .modal{
 
   &__input{
     width: 100%;
     background: transparent;
+    color: $text-color;
     margin: $margin-input;
     padding: $padding-input;
     border: $border;
@@ -16,6 +20,7 @@
 
   &__textarea{
     width: 100%;
+    color: $text-color;
     background: transparent;
     border: $border;
     @include border-gradient;

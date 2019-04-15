@@ -15,6 +15,7 @@
     border-left: none;
     border-bottom: none;
     outline: none;
+    cursor: pointer;
 
     &:last-child{
       border-image-source: linear-gradient(90deg, rgba(255, 255, 255, .1), transparent);
