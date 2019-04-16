@@ -50,3 +50,19 @@ body{
 .c-hidden{
   display: none;
 }
+
+.mobile-show{
+  display: none;
+
+  @include mobile{
+    display: block;
+  }
+}
+
+.mobile-hidden{
+
+  @include mobile{
+    display: none;
+  }
+}
+

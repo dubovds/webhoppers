@@ -4,7 +4,9 @@
     margin-top: $margin-top-text;
   }
 
-
+  @include mobile{
+    margin-top: 0;
+  }
 
   &_center{
     text-align: center;
@@ -50,6 +52,10 @@
       background-color: $green;
       top: rem(-15);
       left: rem(-20);
+    }
+
+    @include mobile{
+      font-size: $defaultSize;
     }
   }
 
