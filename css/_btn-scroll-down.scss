@@ -9,7 +9,7 @@
   font-size: $defaultSize + rem(2);
 
   @include tablet{
-    font-size: $defaultSize * 1.5;
+    font-size: $defaultSize + rem(2);
   }
 
   &__link{

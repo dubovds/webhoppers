@@ -4,6 +4,10 @@
   color: $text-color;
   padding: $popover-padding;
 
+  @include tablet{
+    font-size: $defaultMobileSize;
+  }
+
   @include mobile{
     max-width: rem(200);
   }
