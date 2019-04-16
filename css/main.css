@@ -9,7 +9,11 @@ body {
   background-position: 50% 50%; }
   @media (max-width: 991px) {
     body {
-      font-size: 1rem;
+      font-size: 2rem;
+      background-size: contain; } }
+  @media (max-width: 767px) {
+    body {
+      font-size: 2rem;
       background-size: contain; } }
 
 .section {
@@ -237,6 +241,9 @@ body {
   text-align: center;
   font-family: "OpenSans_semibold", Helvetica, Arial, sans-serif;
   font-size: 1rem; }
+  @media (max-width: 991px) {
+    .btn-scroll-down {
+      font-size: 1.3125rem; } }
   .btn-scroll-down__link {
     display: block;
     position: relative;
@@ -276,15 +283,15 @@ body {
 @media (max-width: 991px) {
   .text-block {
     margin-top: 5rem; } }
-@media (max-width: 767px) {
-  .text-block {
-    margin-top: 0rem; } }
 .text-block_center {
   text-align: center; }
 .text-block__title {
   position: relative;
   text-transform: uppercase;
   font-size: 2.25rem; }
+  @media (max-width: 991px) {
+    .text-block__title {
+      font-size: 3.125rem; } }
   .text-block__title_line:before {
     content: '';
     position: absolute;

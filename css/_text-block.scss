@@ -4,9 +4,7 @@
     margin-top: $margin-top-text;
   }
 
-  @include mobile{
-    margin-top: $margin-top-text-m;
-  }
+
 
   &_center{
     text-align: center;
@@ -16,6 +14,10 @@
     position: relative;
     text-transform: uppercase;
     font-size: $titleSize;
+
+    @include tablet{
+      font-size: $titleSize-m;
+    }
 
     &_line:before{
       content: '';

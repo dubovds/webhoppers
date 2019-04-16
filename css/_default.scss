@@ -12,6 +12,10 @@ body{
     font-size: $defaultMobileSize;
     background-size: contain;
   }
+  @include mobile{
+    font-size: $defaultMobileSize;
+    background-size: contain;
+  }
 }
 
 .section{

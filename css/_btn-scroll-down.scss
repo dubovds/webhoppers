@@ -8,6 +8,10 @@
   font-family: $semiBoldFont;
   font-size: $defaultSize + rem(2);
 
+  @include tablet{
+    font-size: $defaultSize * 1.5;
+  }
+
   &__link{
     display: block;
     position: relative;
