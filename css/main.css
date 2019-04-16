@@ -360,18 +360,25 @@ body {
   display: flex;
   justify-content: flex-end; }
 .brick__item {
+  height: 4.0625rem;
   padding: 0.4375rem 1.5rem;
   border: 3px solid rgba(255, 255, 255, 0.1);
   border-left: none;
   border-bottom: none;
   outline: none;
   cursor: pointer; }
+  @media (max-width: 767px) {
+    .brick__item {
+      height: 3.125rem; } }
   .brick__item:last-child {
     border-image-source: linear-gradient(90deg, rgba(255, 255, 255, 0.1), transparent);
     border-image-slice: 1; }
   .brick__item:first-child {
     border-image-source: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1));
     border-image-slice: 1; }
+  .brick__item img {
+    height: 100%;
+    max-height: 100%; }
 .brick__index {
   position: relative;
   border: 3px solid rgba(255, 255, 255, 0.1) !important;

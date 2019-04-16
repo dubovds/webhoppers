@@ -10,12 +10,17 @@
   }
 
   &__item{
+    height: $brick-item-height;
     padding: $brick-item-padding;
     border: $brick-item-border;
     border-left: none;
     border-bottom: none;
     outline: none;
     cursor: pointer;
+
+    @include mobile{
+      height: $brick-item-height-m;
+    }
 
     &:last-child{
       border-image-source: linear-gradient(90deg, rgba(255, 255, 255, .1), transparent);
@@ -24,6 +29,11 @@
     &:first-child{
       border-image-source: linear-gradient(90deg, transparent, rgba(255, 255, 255, .1));
       border-image-slice: 1;
+    }
+
+    & img{
+      height: 100%;
+      max-height: 100%;
     }
   }
 
