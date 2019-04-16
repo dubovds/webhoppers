@@ -93,6 +93,9 @@ body {
   background: rgba(0, 0, 0, 0.75); }
   .scroll-fixed-navbar .navbar-brand .logo {
     width: 5.1875rem; }
+    @media (max-width: 767px) {
+      .scroll-fixed-navbar .navbar-brand .logo {
+        width: 3.75rem; } }
 
 .navbar-brand {
   padding: 5px; }
@@ -108,6 +111,10 @@ body {
     -o-transition: all 300ms ease-in-out;
     -ms-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out; }
+    @media (max-width: 767px) {
+      .navbar-brand .logo {
+        width: 4.0625rem;
+        height: 3.0625rem; } }
   .navbar-brand:hover .logo {
     background-image: url("../images/logo_color.png");
     background-repeat: no-repeat;
@@ -243,7 +250,7 @@ body {
   font-size: 1rem; }
   @media (max-width: 991px) {
     .btn-scroll-down {
-      font-size: 1rem; } }
+      font-size: 0.875rem; } }
   .btn-scroll-down__link {
     display: block;
     position: relative;

@@ -13,6 +13,10 @@
 
   .navbar-brand .logo{
     width: rem(83);
+
+    @include mobile{
+      width: rem(60);
+    }
   }
 }
 
@@ -27,6 +31,11 @@
     background-position: 50% 50%;
     background-size: contain;
     @include transition;
+
+    @include mobile{
+      width: rem(65);
+      height: rem(49);
+    }
   }
 
   &:hover{
