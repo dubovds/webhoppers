@@ -1,7 +1,7 @@
 body{
   margin: 0;
   background-color: $body-bg;
-  color: $text-color;
+  color: $textColor;
   font-size: $defaultSize;
   font-family: $defaultFont;
   background-image: url("../images/bg.png");
@@ -21,7 +21,7 @@ body{
 .section{
   position: relative;
   padding: $defaultSectionPadding 0;
-  border-bottom: $border $section-border-color;
+  border-bottom: $border $sectionBorderColor;
 
   &_home{
     padding-top: $homeSectionPadding;
@@ -45,7 +45,7 @@ body{
 }
 
 .modal-backdrop.show{
-  opacity: $opacity-overlay;
+  opacity: $opacityOverlay;
 }
 .c-hidden{
   display: none;

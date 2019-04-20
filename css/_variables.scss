@@ -13,18 +13,18 @@ $defaultMobileSize: rem(16);
 //====== COLORS ====
 $body-bg: #000;
 $green: #56b945;
-$text-color: #ffffff;
+$textColor: #ffffff;
 $scrollDownText: rgba(255, 255, 255, 0.6);
-$section-border-color: #3197a3;
+$sectionBorderColor: #3197a3;
 
 //====== OPACITY ===
-$opacity-overlay: 0.8;
+$opacityOverlay: 0.8;
 
 //====== BORDER ====
 $borderContent: 3px solid;
 $border: 2px solid;
-$modal-content-border: 1px solid;
-$brick-item-border: 3px solid rgba(255, 255, 255, .1);
+$modalContentBorder: 1px solid;
+$brickItemBorder: 3px solid rgba(255, 255, 255, .1);
 
 //====== BORDER RADIUS ====
 $borderRadius: 5px;
@@ -34,33 +34,33 @@ $borderRadius: 5px;
 $lineWidth: rem(87);
 $lineHeight: rem(4);
 $lineTop: rem(-55);
-$left-menu-item-size: 16px;
-$brick-item-height: rem(65);
-$brick-item-height-m: rem(50);
+$leftMenuItemSize: 16px;
+$brickItemHeight: rem(65);
+$brickItemHeight-m: rem(50);
 
 
 //====== PADDING ====
 $defaultSectionPadding: rem(130);
 $homeSectionPadding: rem(242);
-$padding-input: rem(10) rem(20);
-$padding-textarea: rem(10) rem(20);
-$padding-btn: rem(13px) rem(38px);
-$text-block-content-padding: rem(40) rem(23);
-$brick-item-padding: rem(7) rem(24);
-$popover-padding: rem(20) rem(15);
-$modal-content-padding: rem(40);
+$paddingInput: rem(10) rem(20);
+$paddingTextarea: rem(10) rem(20);
+$btnPadding: rem(13px) rem(38px);
+$textBlockContentPadding: rem(40) rem(23);
+$brickItemPadding: rem(7) rem(24);
+$popoverPadding: rem(20) rem(15);
+$modalContentPadding: rem(40);
 
 
 //====== MARGING ====
-$margin-modal-text: rem(10);
-$margin-input: rem(10) 0;
-$margin-textarea: rem(10) 0;
-$margin-top-text: rem(80);
-$margin-top-text-m: rem(0);
-$margin-top-text-block-content: rem(40);
-$margin-top-btn-digitized-contact: rem(40);
-$margin-bottom-text-block-subtitle: rem(35);
+$modalTextMargin: rem(10);
+$inputMargin: rem(10) 0;
+$textareaMargin: rem(10) 0;
+$topTextMargin: rem(80);
+$topTextMargin-m: rem(0);
+$topTextMarginBlockContent: rem(40);
+$btnDigitizedContactMarginTop: rem(40);
+$textBlockSubtitleMarginBottom: rem(35);
 
 //====== POSITION ===
-$btn-scroll-down-bottom: rem(40);
-$copywrite-bottom: rem(65);
+$btnScrollDownBottom: rem(40);
+$copywriteBottom: rem(65);

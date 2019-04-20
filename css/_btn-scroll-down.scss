@@ -1,7 +1,7 @@
 .btn-scroll-down{
   position: absolute;
   width: 100%;
-  bottom: $btn-scroll-down-bottom;
+  bottom: $btnScrollDownBottom;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -17,7 +17,7 @@
     position: relative;
     padding-bottom: rem(15);
     text-transform: uppercase;
-    color:$text-color;
+    color:$textColor;
     text-decoration: none;
     opacity:.5;
     @include transition;
@@ -37,7 +37,7 @@
     }
 
     &:hover{
-      color: $text-color;
+      color: $textColor;
       text-decoration: none;
       opacity: 1;
 

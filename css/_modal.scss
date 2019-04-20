@@ -4,12 +4,12 @@
 }
 .modal-content{
   background-color: $body-bg;
-  border: $modal-content-border $green;
+  border: $modalContentBorder $green;
   border-radius: 0;
-  padding: $modal-content-padding;
+  padding: $modalContentPadding;
 
   @include mobile{
-    padding: $modal-content-padding / 2;
+    padding: $modalContentPadding / 2;
   }
 }
 .modal-header{
@@ -21,7 +21,7 @@
   position: absolute;
   top: rem(10);
   right: rem(10);
-  color: $text-color;
+  color: $textColor;
   opacity: 1;
 
   @include mobile{
@@ -31,24 +31,24 @@
 .modal{
 
   &__text{
-    color: $text-color;
+    color: $textColor;
   }
 
   &__input{
     width: 100%;
     background: transparent;
-    color: $text-color;
-    margin: $margin-input;
-    padding: $padding-input;
+    color: $textColor;
+    margin: $inputMargin;
+    padding: $paddingInput;
     border: $border $green;
     outline: none;
   }
 
   &__textarea{
     width: 100%;
-    margin: $margin-textarea;
-    padding: $padding-textarea;
-    color: $text-color;
+    margin: $textareaMargin;
+    padding: $paddingTextarea;
+    color: $textColor;
     background: transparent;
     border: $border $green;
   }

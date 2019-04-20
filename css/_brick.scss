@@ -10,16 +10,16 @@
   }
 
   &__item{
-    height: $brick-item-height;
-    padding: $brick-item-padding;
-    border: $brick-item-border;
+    height: $brickItemHeight;
+    padding: $brickItemPadding;
+    border: $brickItemBorder;
     border-left: none;
     border-bottom: none;
     outline: none;
     cursor: pointer;
 
     @include mobile{
-      height: $brick-item-height-m;
+      height: $brickItemHeight-m;
     }
 
     &:last-child{
@@ -39,13 +39,13 @@
 
   &__index{
     position: relative;
-    border: $brick-item-border !important;
+    border: $brickItemBorder !important;
     z-index:2000;
   }
 }
 
 .brick__block:last-child{
   .brick__item{
-    border-bottom: $brick-item-border;
+    border-bottom: $brickItemBorder;
   }
 }

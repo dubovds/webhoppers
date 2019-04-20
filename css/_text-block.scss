@@ -1,7 +1,7 @@
 .text-block{
 
   @include tablet{
-    margin-top: $margin-top-text;
+    margin-top: $topTextMargin;
   }
 
   @include mobile{
@@ -39,7 +39,7 @@
 
   &__subtitle{
     position: relative;
-    margin-bottom: $margin-bottom-text-block-subtitle;
+    margin-bottom: $textBlockSubtitleMarginBottom;
     color: $green;
     text-transform: uppercase;
 
@@ -60,18 +60,18 @@
   }
 
   &__content{
-    margin-top: $margin-top-text-block-content;
-    padding: $text-block-content-padding;
+    margin-top: $topTextMarginBlockContent;
+    padding: $textBlockContentPadding;
     border: $borderContent $green;
 
     @include tablet{
-      margin-top: $margin-top-text-block-content/2;
+      margin-top: $topTextMarginBlockContent/2;
     }
   }
 }
 
 .section_home .text-block{
   @include mobile{
-    margin-top: $margin-top-text;
+    margin-top: $topTextMargin;
   }
 }

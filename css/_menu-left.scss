@@ -13,16 +13,16 @@
     display: block;
     border: $border #fff;
     opacity: .5;
-    width: $left-menu-item-size;
-    height: $left-menu-item-size;
+    width: $leftMenuItemSize;
+    height: $leftMenuItemSize;
     margin: 15px 0;
     border-radius: 50%;
     @include transition;
 
     & a{
       position: relative;
-      width: $left-menu-item-size;
-      height: $left-menu-item-size;
+      width: $leftMenuItemSize;
+      height: $leftMenuItemSize;
       display: block;
     }
 
@@ -31,8 +31,8 @@
       & a:before{
         content: '';
         position: absolute;
-        width: $left-menu-item-size/2;
-        height: $left-menu-item-size/2;
+        width: $leftMenuItemSize/2;
+        height: $leftMenuItemSize/2;
         background: #fff;
         border-radius: 50%;
         top: 50%;

@@ -1,11 +1,11 @@
 .copywrite{
   position: absolute;
-  bottom: $copywrite-bottom;
+  bottom: $copywriteBottom;
   left: 50%;
   transform: translateX(-50%);
   text-align: right;
 
   @include mobile{
-    bottom: $copywrite-bottom / 2;
+    bottom: $copywriteBottom / 2;
   }
 }
